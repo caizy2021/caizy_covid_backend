@@ -14,7 +14,7 @@ router.get('/covid/list', async (req: Request, res: Response) => {
     ...result.data.data
   })
 })
-//开启服务到端口号3000
-app.listen(3000, () => {
-  console.log('success server http://localhost:3000')
+//开启服务到端口号2100
+app.listen(2100, () => {
+  console.log('success server http://localhost:2100')
 })
